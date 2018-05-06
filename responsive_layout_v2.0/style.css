@@ -4,14 +4,32 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 75px;
 }
 
 .item {
     margin: auto;
+}
+
+.profile-picture-and-text,
+.portfolio-pictures-and-text {
+    width: 367px;
+    margin: 0 auto 100px;
+}
+
+
+
+.light-text {
+    color: lightgrey;
+}
+
+h2 {
+    color: lightslategray;
 }
