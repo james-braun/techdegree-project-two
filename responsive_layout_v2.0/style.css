@@ -7,22 +7,29 @@ body {
     text-align: center;
 }
 
-.container,
-.container2 {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 
 .item {
     margin: auto;
 }
 
-.profile-picture-and-text,
+.profile-picture-and-text {
+    width: 320px;
+    margin: 0 auto 75px;
+}
+
+.portfolio {
+    margin-bottom: 50px;
+}
+
 .portfolio-pictures-and-text {
-    width: 367px;
-    margin: 0 auto 100px;
+    width: 320px;
+    margin: 0 auto;
 }
 
 .light-text {
