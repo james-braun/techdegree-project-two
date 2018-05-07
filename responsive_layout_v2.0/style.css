@@ -25,6 +25,7 @@ body {
 
 .portfolio {
     margin-bottom: 50px;
+    color: lightslategray;
 }
 
 .portfolio-pictures-and-text {
@@ -42,7 +43,7 @@ body {
     padding: 0 15px;
 }
 
-.phone-email a {
+a {
     text-decoration: none;
     color: lightslategray;
 }
@@ -72,9 +73,9 @@ h2 {
 }
 
 .footer-item-1 {
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .footer-item-5 {
-    margin-left: 25px;
+    margin-left: 20px;
 }
