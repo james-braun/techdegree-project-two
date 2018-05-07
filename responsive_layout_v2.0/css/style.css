@@ -33,6 +33,10 @@ body {
     margin: 0 auto;
 }
 
+#contact {
+    width: 310px;
+}
+
 .phone-email {
     display: flex;
     justify-content: center;
