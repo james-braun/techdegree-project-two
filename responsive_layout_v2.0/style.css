@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-.container {
+.navigation {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,10 +32,49 @@ body {
     margin: 0 auto;
 }
 
+.phone-email {
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+}
+
+.item2 {
+    padding: 0 15px;
+}
+
+.phone-email a {
+    text-decoration: none;
+    color: lightslategray;
+}
+
+
+
 .light-text {
     color: lightgrey;
 }
 
 h2 {
     color: lightslategray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    margin-top: 60px;
+    border-top: 1px lightgray solid;
+}
+
+.footer-item-2,
+.footer-item-3,
+.footer-item-4 {
+    display: none;
+}
+
+.footer-item-1 {
+    margin-right: 25px;
+}
+
+.footer-item-5 {
+    margin-left: 25px;
 }

@@ -8,11 +8,11 @@
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
 </head>
 <body>
-    <header class="container">
+    <header class="navigation">
         <div class="item"><h1>James Braun</h1></div>
-        <div class="item"><h3>HOME</h3></div>
-        <div class="item"><h3>PORTFOLIO</h3></div>
-        <div class="item"><h3>CONTACT</h3></div>
+        <div class="item"><a href="#"><h3>HOME</h3></a></div>
+        <div class="item"><a href="#portifolio"><h3>PORTFOLIO</h3></a></div>
+        <div class="item"><a href="#contact"><h3>CONTACT</h3></a></div>
     </header>
 
     <main>
@@ -20,7 +20,7 @@
             <img src="images/responsive-layout-profile.png" alt="Picture of student" width=300px>
             <h3 class="light-text">Hi! I'm a front-end developer who loves responsive design and css.  I recently finished a degree in front-end web development at treehouse and am excited to put all my skils to use!</h3>
         </div>
-
+        <a name="portfolio"></a>
         <div class="portfolio">
             <h3>PORTFOLIO</h3>
         </div>
@@ -57,12 +57,26 @@
                 <h3 class="light-text">Someone can enter the numbers they want, and press the big blue button and get the result.</h3>
             </div>                        
         </section>
+        <a name="contact"></a>
+        <section>
+            <h2>CONTACT</h2>
+            <h3 class="light-text">If your interested in chatting or want more information about what I've been working on, I'd love to hear from you!</h3>
+            <div class="phone-email">
+                <h3 class="light-text item2">phone</h3>
+                <a class="item2" href="tel:+12567831357"><h3>+1 256-783-1357</h3></a>
+            </div>
+            <div class="phone-email">
+                <h3 class="light-text item2">email</h3>
+                <a class="item2" href="mailto:hzleyddude@yahoo.com"><h3>hzleyddude@yahoo.com</h3></a>
+            </div>
+        </section>
     </main>
-
-    <footer>
-        <h2>CONTACT</h2>
-        <h3 class="light-text">If your interested in chatting or want more information about what I've been working on, I'd love to hear from you!</h3>
-        
+    <footer class="container">
+        <div class="footer-item-1 item2"><h3>James Braun</h3></div>
+        <div class="footer-item-2"><a href="#"><h3>HOME</h3></a></div>
+        <div class="footer-item-3"><a href="#portfolio"><h3>PORTFOLIO</h3></a></div>
+        <div class="footer-item-4"><a href="#contact"><h3>CONTACT</h3></a></div>
+        <div class="footer-item-5 item2"><a href="#"><h3>BACK TO TOP</h3></a></div>
     </footer>
-</body>
+  </body>
 </html>
