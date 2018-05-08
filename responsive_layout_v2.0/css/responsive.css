@@ -79,6 +79,10 @@
        padding-top: 10px;
     }
 
+    .profile-picture-and-text img {
+        height: 225px;
+        width: 367px;
+    }
 
     .profile-picture-and-text {
         width: 920px;

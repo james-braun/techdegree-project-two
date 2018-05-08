@@ -23,6 +23,10 @@ body {
     margin: 0 auto 75px;
 }
 
+.profile-picture-and-text img {
+    width: 270px;
+}
+
 .portfolio {
     margin-bottom: 50px;
     color: lightslategray;
