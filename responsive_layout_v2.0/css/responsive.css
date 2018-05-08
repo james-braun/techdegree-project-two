@@ -19,7 +19,12 @@
     }
 
     .profile-picture-and-text  h3 {
+        /* flex-shrink: 0; */
         margin: 0 10px;
+    }
+
+    .profile-picture-and-text img {
+        flex-shrink: 0;
     }
 
     .gallery {
@@ -41,7 +46,7 @@
     .footer-container {
         display: inline-flex;
         width: 620px;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .footer-item-2,
@@ -67,7 +72,8 @@
     .navigation {
         display: inline-flex;
         flex-direction: row;
-        width: 940px;   
+        justify-content: flex-start;
+        width: 940px;
     }
 
     .name {
@@ -78,13 +84,14 @@
        padding-top: 10px;
     }
 
-    .profile-picture-and-text img {
-        width: 367px;
+    .profile-picture-and-text {
+        min-width: 920px;
+        height: 225px;
     }
 
-    .profile-picture-and-text {
-        width: 920px;
-        height: 225px;
+    .profile-picture-and-text img {
+        /* flex-shrink: 0; */
+        width: 367px;
     }
 
     .gallery {
