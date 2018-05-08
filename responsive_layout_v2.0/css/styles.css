@@ -37,6 +37,10 @@ body {
     margin: 0 auto;
 }
 
+.portfolio-pictures-and-text img {
+    width: 300px;
+}
+
 #contact {
     width: 310px;
     margin: 75px auto 0;
