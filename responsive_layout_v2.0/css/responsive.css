@@ -22,7 +22,7 @@
         margin: 0 10px;
     }
 
-    .container2 {
+    .gallery {
         display: inline-flex;
         flex-direction: row;
         width: 768px;
@@ -35,10 +35,10 @@
     }
 
     #contact {
-        width: 60%;
+        width: 460px;
     }
 
-    .container {
+    .footer-container {
         display: inline-flex;
         width: 620px;
         justify-content: center;
@@ -67,8 +67,7 @@
     .navigation {
         display: inline-flex;
         flex-direction: row;
-        width: 940px;
-        
+        width: 940px;   
     }
 
     .name {
@@ -80,19 +79,23 @@
     }
 
     .profile-picture-and-text img {
-        height: 225px;
         width: 367px;
     }
 
     .profile-picture-and-text {
         width: 920px;
+        height: 225px;
     }
 
-    .container2 {
+    .gallery {
         width: 1024px;
     }
 
-    .container {
+    #contact {
+        width: 500px;
+    }
+
+    .footer-container {
         width: 920px;
     }
 }

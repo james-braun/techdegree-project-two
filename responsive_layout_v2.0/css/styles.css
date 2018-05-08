@@ -27,7 +27,7 @@ body {
     width: 270px;
 }
 
-.portfolio {
+#portfolio {
     margin-bottom: 50px;
     color: lightslategray;
 }
@@ -67,7 +67,7 @@ h2 {
     color: lightslategray;
 }
 
-.container {
+.footer-container {
     display: flex;
     justify-content: center;
     height: 25px;
