@@ -13,7 +13,7 @@
     .profile-picture-and-text {
         display: flex;
         flex-direction: row-reverse;
-        width: 80%;
+        width: 620px;
         height: 167px;
         text-align: left;
     }
@@ -41,6 +41,11 @@
 }
 
 @media (min-width: 1024px) {
+
+    .profile-picture-and-text {
+        width: 920px;
+    }
+
     .container2 {
         width: 1024px;
     }
