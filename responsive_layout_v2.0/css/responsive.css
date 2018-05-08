@@ -85,12 +85,11 @@
     }
 
     .profile-picture-and-text {
-        min-width: 920px;
+        width: 920px;
         height: 225px;
     }
 
     .profile-picture-and-text img {
-        /* flex-shrink: 0; */
         width: 367px;
     }
 
