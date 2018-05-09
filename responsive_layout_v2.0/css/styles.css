@@ -61,7 +61,9 @@ a {
     color: lightslategray;
 }
 
-
+:target {
+    top: -50px;
+}
 
 .light-text {
     color: lightgrey;
